@@ -15,6 +15,11 @@ console.log("Average Scores", Average)
 let employee = { name: "Peter Parker", age: 20, department: "Avenger", isActive: true}
 
 employee.department = "Intern"
-console.log(employee)
+console.log(employee);
 
+let customers = [{ name: "Green Goblin", email: "goblin@gmail.com", purchaseAmount: "700"} , 
+    { name: "Kim Kardashian", email: "kimk@gmail.com", purchaseAmount: "1000"}, {name: "Jon Snow", email: "snow@gmail.com", purchaseAmount: "10" }]
+
+customers.push({ name: "Michael Jackson", email: "mj1@gmail.com", purchaseAmount: "300"});
+    console.log(customers);
 
