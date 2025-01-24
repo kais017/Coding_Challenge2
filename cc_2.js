@@ -12,4 +12,9 @@ let Average = total / scores.length
 console.log("Updated Scores", scores)
 console.log("Average Scores", Average)
 
+let employee = { name: "Peter Parker", age: 20, department: "Avenger", isActive: true}
+
+employee.department = "Intern"
+console.log(employee)
+
 
