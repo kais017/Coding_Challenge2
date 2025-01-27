@@ -3,12 +3,13 @@ products.unshift("keyboard");
 products.pop();
 console.log("Updated Products", products);
 
-let scores = [97,65,78,100,87]
-scores[1] = 70
+let scores = [97,65,78,100,87];
+scores[1] = 70;
 
-let total = scores[0] + scores[1] + scores[2] + scores[3] + scores[4]
+
+let total = scores.reduce((total,amount) => total + amount, 0)
 let Average = total / scores.length
-
+console.log("Total Scores", total);
 console.log("Updated Scores", scores)
 console.log("Average Scores", Average)
 
@@ -22,4 +23,6 @@ let customers = [{ name: "Green Goblin", email: "goblin@gmail.com", purchaseAmou
 
 customers.push({ name: "Michael Jackson", email: "mj1@gmail.com", purchaseAmount: "300"});
     console.log(customers);
+
+
 
